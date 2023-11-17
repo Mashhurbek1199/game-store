@@ -1,0 +1,29 @@
+.order-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-page__left {
+  width: 70%;
+}
+
+.order-page__right {
+  width: 27%;
+  font-size: 25px;
+  font-weight: bold;
+  color: #00b300;
+  
+}
+@media (min-width: 481px) and (max-width: 767px){
+  .order-page{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .order-page__left {
+    width: 100%; 
+  }
+  .order-page__right{
+    width: 100%;
+  }
+}
